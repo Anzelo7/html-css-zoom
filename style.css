@@ -63,10 +63,27 @@ header span{
     color: white;
     background-color: rgb(81 80 78);
 }
-
 /*/header*/
 
 /*main*/
+
+.card{
+    width: 300px;
+    height: 200px;
+}
+
+.card img{
+    width: 100%;
+    position: absolute;
+}
+
+.card img span{
+    font-weight: 600;
+    color: white;
+    position: relative;
+    right: 0;
+    bottom: 0;
+}
 
 /*/main*/
 
