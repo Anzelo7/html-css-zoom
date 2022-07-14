@@ -6,3 +6,48 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.grid{
+    display: grid;
+}
+
+/*header*/
+
+header{
+    justify-content: space-between;
+}
+
+#zoom{
+    width: 20px;
+    height: 20px;
+    padding: 0.7%;
+    border-radius: 20%;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    position: relative;
+}
+
+#zoom svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*/header*/
+
+/*main*/
+
+/*/main*/
+
+/*footer*/
+
+/*/footer*/
