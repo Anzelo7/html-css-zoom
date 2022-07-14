@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 
 .flex{
     display: flex;
@@ -23,6 +27,7 @@
 /*header*/
 
 header{
+    height: 3vh;
     justify-content: space-between;
     background-color: black;
 }
@@ -61,17 +66,22 @@ header span{
 /*main*/
 
 main{
+    height: 89vh;
+    overflow: auto;
     justify-content: center;
+    background-color: black;
 }
 
 .card{
     width: 300px;
     height: 200px;
+    background-color: black;
 }
 
 .card img{
     width: 100%;
     position: absolute;
+    padding: 6px;
 }
 
 .name{
@@ -95,6 +105,7 @@ main{
 /*footer*/
 
 footer{
+    height: 9vh;
     justify-content: space-between;
     background-color: rgb(47, 47, 47);
 }
