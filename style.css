@@ -61,4 +61,8 @@ header{
 footer{
     justify-content: space-between;
 }
+
+div{
+    text-align: center;
+}
 /*/footer*/
