@@ -31,11 +31,18 @@
 
 header{
     justify-content: space-between;
+    background-color: black;
+}
+
+header span{
+    padding: 1px 4px;
+    color: white;
 }
 
 #zoom{
     width: 20px;
     height: 20px;
+    margin: 4px;
     padding: 0.7%;
     border-radius: 20%;
     color: white;
@@ -50,6 +57,13 @@ header{
     transform: translate(-50%, -50%);
 }
 
+.square{
+    margin: 4px;
+    border-radius: 6%;
+    color: white;
+    background-color: rgb(81 80 78);
+}
+
 /*/header*/
 
 /*main*/
@@ -60,9 +74,34 @@ header{
 
 footer{
     justify-content: space-between;
+    background-color: rgb(47, 47, 47);
 }
 
-div{
+footer p{
+    font-size: 15px;
+    color: white;
+    line-height: 2rem;
+}
+
+footer div{
+    margin-top: 15px;
+    padding: 0 6px;
     text-align: center;
+}
+
+footer svg{
+    width: 30px;
+    height: 30px;
+}
+
+.end{
+    margin: 0;
+    font-weight: 600;
+    background-color: rgb(81 80 78);
+}
+
+.end p{
+    margin-top: 30px;
+    color: red;
 }
 /*/footer*/
